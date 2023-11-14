@@ -7,24 +7,24 @@ const questions = [
     type: 'input',
     name: 'characters',
     message: 'What three characters do you want to use?',
-    validate: (input) => input.length <= 3
+    validate: (input) => input.length <= 3,
   },
   {
     type: 'input',
     name: 'textColor',
-    message: 'What color do you want your text to be?'
+    message: 'What color do you want your text to be?',
   },
   {
     type: 'list',
     name: 'shape',
     message: 'What shape do you want to use?',
-    choices: ['Circle', 'Square', 'Triangle']
+    choices: ['Circle', 'Square', 'Triangle'],
   },
   {
     type: 'input',
     name: 'shapeColor',
-    message: 'What color do you want your shape to be?'
-  }
+    message: 'What color do you want your shape to be?',
+  },
 ];
 
 function logoGenerate(data) {
